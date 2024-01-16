@@ -60,9 +60,9 @@ const Header = () => {
                  
                     
                       {MenuList.map((route, i) => (
-                        <Button asChild variant="ghost">
+                        <Button key={i} asChild variant="ghost">
                           <Link
-                            key={i}
+                            
                             href={route.href}
                             className="text-sm transition-colors font-medium"
                           >
@@ -89,7 +89,7 @@ const Header = () => {
           <nav className="hidden lg:flex items-center mx-6 space-x-4 lg:space-x-6  ">
            
                 {MenuList.map((route, i) => (
-                  <Button asChild variant="ghost">
+                  <Button key={i}  asChild variant="ghost">
                     <Link
                       key={i}
                       href={route.href}
