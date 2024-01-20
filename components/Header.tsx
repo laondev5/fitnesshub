@@ -47,7 +47,7 @@ const Header = () => {
   //const { user, isLoaded } = useUser();
   const auth = false;
   return (
-    <header className="sm:flex sm:justify-between sm:items-center py-2 px-4 shadow-md sticky top-0 left-0 z-50">
+    <header className="sm:flex sm:justify-between sm:items-center py-2 px-4 shadow-md sticky top-0 left-0 z-50 bg-white">
       <Container>
         <div className="relative px-4 sm:px-6 lg:px-8 h-16 w-full flex items-center justify-between">
           <div className="flex items-center justify-center">
