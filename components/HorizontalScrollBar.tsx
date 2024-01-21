@@ -1,21 +1,12 @@
-import React from 'react'
+"use client"
+import React, {useState} from 'react'
 import { exerciseOption } from '@/utility/FetchData'
 import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 
 const HorizontalScrollBar = ({data, bodyPart, setBodypart, isBodyPart, setExercise}) => {
-  const singleBoduPartUrl = 'https://exercisedb.p.rapidapi.com/exercises/bodyPart'
-
+  // const singleBoduPartUrl = 'https://exercisedb.p.rapidapi.com/exercises/bodyPart'
   
-// console.log(bodyPart)
-// if(!bodyPart == "all"){
-//      const fetchBodyPart = async () => {
-//       const dataResponse = await axios.get(`https://exercisedb.p.rapidapi.com/exercises/${bodyPart}`, exerciseOption);
-//       console.log(dataResponse.data)
-//       return dataResponse.data;
-//     }
-//   fetchBodyPart()
-// }
  
   return (
     <div className=" space-x-4 flex items-center w-full justify-center">

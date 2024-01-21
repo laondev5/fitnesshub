@@ -3,7 +3,7 @@ import React, { lazy } from 'react'
 import Link from 'next/link'
 
 const ExecisesCard = ({exercise, key}) => {
-    console.log(exercise)
+    //console.log(exercise)
     const srcGif = exercise.gifUrl
   return (
     <Link href="#">
